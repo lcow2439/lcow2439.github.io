@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* Set the background color for the website */
+body {
+    background-color: #d4dad6;
+}
+img{
+    width: 100%;
+    height: 500px ;
+}
+/* Style the container element to set the width of the page and center the page */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* header */
+/*header {
+    background-color: #b2c0b7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #b2c0b7;
+}
+*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b2c0b7;
+    padding: 10px 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #f6eee4;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #556a5c;
+}
+
+.img1 {
+    width: 60px;
+    height: auto;
+    margin-right: 10px; /* Adjusted margin for smaller screens */
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
+  
+/* Style the main element */
+main {
+    display: block;
+    background-color: #eef6f1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+main h1{
+    text-align: center;
+    padding-bottom: 2px;
+}
+ #c1{
+    font-family:  Verdana, Arial, sans-serif; 
+    padding: 50px;
+ }
+
+/* Set default fonts for the website */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Adjust font sizes for all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em;
+}
+
+/* Change the color of at least one heading */
+h1 {
+    color: #556a5c;
+
+}
+
+/* Format the list items */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Reduce font size for the footer, center it, and include a top margin */
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}
