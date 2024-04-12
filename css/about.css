@@ -1,0 +1,103 @@
+
+/* about.css */
+
+/* Styles for different viewports */
+.mobile {
+    display: block;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+}
+
+
+/* about.css */
+
+/* Styles for different viewports */
+.mobile {
+    display: block;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+}
+
+
+/* about.css */
+
+/* Styles for different viewports */
+.mobile {
+    display: block;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+}
+
+

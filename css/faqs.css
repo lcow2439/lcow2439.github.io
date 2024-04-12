@@ -1,0 +1,30 @@
+/* FAQ section styles */
+.faq-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* FAQ item styles */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style for FAQ section heading */
+.faq-section h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}

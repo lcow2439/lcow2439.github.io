@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Set the background color for the website */
+body {
+    background-color: #d4dad6;
+}
+
+/* Style the container element to set the width of the page and center the page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #b2c0b7;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+.media-section {
+    margin-bottom: 20px;
+}
+
+/* Make video responsive */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+audio{
+    max-width: 100%;
+    
+}
+
