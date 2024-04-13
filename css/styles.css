@@ -1,4 +1,3 @@
-
 /* styles.css */
 
 /* Set the background color for the website */
@@ -12,7 +11,7 @@ img{
 /* Style the container element to set the width of the page and center the page */
 .container {
     max-width: 100%;
-    height: 500px;
+    margin: 0 auto;
 }
 /* header */
 /*header {
@@ -27,6 +26,9 @@ img{
 }
 */
 
+/* nav.css */
+
+/* Base styles for navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -60,7 +62,6 @@ nav a {
 
 nav a:hover {
     color: #556a5c;
-    transform: scale(1.3);
 }
 
 .img1 {
@@ -69,14 +70,33 @@ nav a:hover {
     margin-right: 10px; /* Adjusted margin for smaller screens */
 }
 
+/* Media query for tablets */
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    nav ul {
+        padding: 10px 0;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
+/* Media query for mobile devices */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
+        padding: 10px;
     }
 
     nav ul {
-        padding: 10px;
+        padding: 10px 0;
     }
 
     nav li {
@@ -136,4 +156,3 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
-
